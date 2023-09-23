@@ -297,11 +297,7 @@ def main():
                     pass
 
                 if sudoku_board.is_full() is True:
-                    '''
-                    print("Sudoku to Check:")
-                    for col in sudoku_board.sudoku:
-                        print(col)
-                    '''
+
                     win = sudoku_board.check_board(og_board)
                     print(win)
                     if win is True:
